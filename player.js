@@ -10,7 +10,8 @@ let player = {
             ["Again, and again", "Boost points based on points", new Decimal(30), "points", false],
             ["Once and for all", "^1.2 points/s.", new Decimal(250), "points", false],
             ["Here we go again!", "Unlocks <b>temperature</b>.", new Decimal(1000), "points", false],
-            ["Thermal conductivity", "Temperature boosts points (*(x-27)^10)", new Decimal(5), "heat", false]
+            ["Thermal conductivity", "Temperature boosts points (*(x-27)^10)", new Decimal(5), "heat", false],
+            ["Pure fuels", "Heat boosts points", new Decimal(25), "heat", false]
         ]
     },
     heat: new Decimal(0),

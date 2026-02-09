@@ -7,6 +7,7 @@ function point_gain() {
     if (hasUpgrade(0)) { g = g.times(2) }
     if (hasUpgrade(1)) { g = g.times(player.points.add(10).slog().add(1).pow(2)) }
     if (hasUpgrade(4)) { g = g.times(get_temp(player.heat).sub(27).pow(10)) }
+    if (hasUpgrade(5)) { g = g.times(player.heat.add(1).pow(0.5)) }
     //powers
     if (hasUpgrade(2)) { g = g.pow(1.2) }
     //tetrations
